@@ -54,4 +54,4 @@ app.get('/news',(req,res)=>{
 })
 
 
-app.listen(8000, () => console.log('server is 8000 ${PORT}'))
+app.listen(PORT, () => console.log('server is 8000 ${PORT}'))
