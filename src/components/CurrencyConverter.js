@@ -19,7 +19,7 @@ function CurrencyConverter() {
     
         const options = {
             method: 'GET',
-            url: 'http://localhost:8000/convert',
+            url: 'https://board-crypto.herokuapp.com/convert',
             params: {from_currency: chosenPrimaryCurrency, function: 'CURRENCY_EXCHANGE_RATE', to_currency: chosenSecondaryCurrency},
         };
 
