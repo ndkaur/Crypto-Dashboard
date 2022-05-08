@@ -9,7 +9,8 @@ function NewsFeed() {
   useEffect(() => {
     const options = {
       method: 'GET',
-      url: 'https://board-crypto.herokuapp.com/news',
+      url: 'https://board-crypto.herokuapp.com/'+':'+'process.env.PORT'+'/news',
+      // url: 'http://localhost:8000/news',
     };
 
     axios.request(options).then(function (response) {
