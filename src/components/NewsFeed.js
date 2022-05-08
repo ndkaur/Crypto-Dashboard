@@ -10,7 +10,8 @@ function NewsFeed() {
     const options = {
       method: 'GET',
       // url: 'https://board-crypto.herokuapp.com/news',
-      url: 'http://localhost:8000/news',
+      url: 'http://localhost:${PORT}/news',
+      // url: 'http://localhost:8000/news'
     };
 
     axios.request(options).then(function (response) {
