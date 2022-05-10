@@ -1,4 +1,4 @@
-const PORT= process.env.PORT 
+const PORT= process.env.PORT || 8000
 const express = require('express')
 const cors = require('cors')
 const axios = require('axios')
@@ -54,4 +54,4 @@ app.get('/news',(req,res)=>{
 })
 
 
-app.listen(PORT, () => console.log('server is ${PORT}'))
+app.listen(PORT, () => console.log('server is 800 ${PORT}'))
