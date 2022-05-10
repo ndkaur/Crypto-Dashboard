@@ -5,8 +5,7 @@ https://board-crypto.herokuapp.com/
 Designed a crypto dashboard using the following packages :- 
 
 - Express
-- Cors
-- Dotenv 
+- Cors 
 - Axios 
 
 I have used the following API's :- 
